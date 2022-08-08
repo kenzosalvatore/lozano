@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernandez Ariel y Salvatore Kenzo DMT2B 2021</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap/estilos.css">
+    <script>
+        document.createElement("picture");
+    </script>
+</head>
+
+<body>
+    <header id="cero" class="container-xxl fondo2 fixed-top">
+        <h1 id="lozano">Lozano</h1>
+        <nav class="row navbar navbar-expand-lg navbar-dark-color: rgb(00, 66, 33) bg-dark-color: rgb(00, 66, 33)">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#barra"
+                    aria-controls="barra" aria-expanded="false" aria-label="Menú hamburguesa">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="barra">
+                    <ul class="navbar-nav text-center ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#cero" data-ancla="true">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#uno" data-ancla="true">Filosofía</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#dos" data-ancla="true">Sugerencias</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#tres" data-ancla="true">Platos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#cuatro" data-ancla="true">Recorrido</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#cinco" data-ancla="true">Reservas</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="container-xxl p-0">
+        <div id="banner" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#banner" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Imagen 1"></button>
+                <button type="button" data-bs-target="#banner" data-bs-slide-to="1" aria-label="Imagen 2"></button>
+                <button type="button" data-bs-target="#banner" data-bs-slide-to="2" aria-label="Imagen 3"></button>
+                <button type="button" data-bs-target="#banner" data-bs-slide-to="3" aria-label="Imagen 4"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <figure class="carousel-item active">
+                    <picture>
+                        <source media="(max-width: 576px)" srcset="imagenes/banner/banner1_mini.jpg">
+                        <source media="(max-width: 650px)" srcset="imagenes/banner/banner1_chico.jpg">
+                        <source media="(max-width: 992px)" srcset="imagenes/banner/banner1_tab.jpg">
+                        <img class="d-block w-100" src="imagenes/banner/banner1_pc.jpg" alt="pernil con ensalada">
+                    </picture>
+                    <figcaption class="carousel-caption">
+                        <span class="h1">Comida sana</span>
+                    </figcaption>
+                </figure>
+                <figure class="carousel-item">
+                    <picture>
+                        <source media="(max-width: 576px)" srcset="imagenes/banner/banner2_mini.jpg">
+                        <source media="(max-width: 650px)" srcset="imagenes/banner/banner2_chico.jpg">
+                        <source media="(max-width: 992px)" srcset="imagenes/banner/banner2_tab.jpg">
+                        <img class="d-block w-100" src="imagenes/banner/banner2_pc.jpg" alt="avocado toast">
+                    </picture>
+                    <figcaption class="carousel-caption">
+                        <span class="h1">Métodos sanos de elaboración</span>
+                    </figcaption>
+                </figure>
+                <figure class="carousel-item">
+                    <picture>
+                        <source media="(max-width: 576px)" srcset="imagenes/banner/banner3_mini.jpg">
+                        <source media="(max-width: 650px)" srcset="imagenes/banner/banner3_chico.jpg">
+                        <source media="(max-width: 992px)" srcset="imagenes/banner/banner3_tab.jpg">
+                        <img class="d-block w-100" src="imagenes/banner/banner3_pc.jpg" alt="granola con durazano">
+                    </picture>
+                    <figcaption class="carousel-caption">
+                        <span class="h1">Comé bien, viví bien</span>
+                    </figcaption>
+                </figure>
+                <figure class="carousel-item">
+                    <picture>
+                        <source media="(max-width: 576px)" srcset="imagenes/banner/banner4_mini.jpg">
+                        <source media="(max-width: 650px)" srcset="imagenes/banner/banner4_chico.jpg">
+                        <source media="(max-width: 992px)" srcset="imagenes/banner/banner4_tab.jpg">
+                        <img class="d-block w-100" src="imagenes/banner/banner4_pc.jpg" alt="tostadas">
+                    </picture>
+                    <figcaption class="carousel-caption">
+                        <span class="h1">Platos sofisticados y ricos</span>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#banner" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#banner" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </section>
+
+
+    <main>
+        <article id="filosofia" class="container-xxl fondo1 pb-lg-1">
+            <span id="uno"></span>
+            <h2>Nuestra Filosofía</h2>
+            <section id="porque">
+                <h3 class="pb-4 pb-sm-1">¿Por qué elegimos comer sano?</h3>
+                <div class="row align-items-sm-center">
+                    <div class="col-md-6">
+                        <figure class="m-0">
+                            <picture>
+                                <source
+                                    media="(max-width: 576px) and (-webkit-min-device-pixel-ratio: 1.5),
+                            (max-width: 576px) and (min--moz-device-pixel-ratio: 1.5), (max-width: 576px) and (-o-min-device-pixel-ratio: 1.5), (max-width: 576px) and (min-device-pixel-ratio: 1.5)"
+                                    srcset="imagenes/piramide/piramide_cel2x.jpg">
+
+                                <source media="(max-width: 576px)" srcset="imagenes/piramide/piramide_cel.jpg">
+
+                                <source media="(max-width: 899px)" srcset="imagenes/piramide/piramide_tab.jpg">
+                                <img src="imagenes/piramide/piramide.jpg" alt="piramide alimenticia">
+                            </picture>
+                        </figure>
+                    </div>
+
+                    <div class="col-md-6 col order-md-1 mt-1">
+                        <p>Alimentarse de forma adecuada no sólo tiene que ver con sentirnos bien físicamente, sino
+                            también
+                            garantizar un buen aporte de todos los nutrientes que nuestro cuerpo necesita para
+                            asegurarnos un buen estado
+                            de salud.
+                        </p>
+                        <p>El objetivo de llevar una <strong>alimentación sana y equilibrada</strong> es proporcionar al
+                            organismo los nutrientes que necesita para que funcione bien y tengamos la energía
+                            suficiente para afrontar nuestro
+                            día.
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="mt-xl-5 pt-xl-2">
+                <h3>Beneficios de comer sano</h3>
+                <p>Una <strong>dieta equilibrada</strong> permite que nuestro organismo, por un lado, funcione con
+                    normalidad y cubra nuestras necesidades fisiológicas básicas, y por otro, reduzca las posibilidades
+                    de padecer enfermedades a corto y largo plazo. Según la OMS 2,7 millones de personas fallecen todos
+                    los
+                    años por no llevar una buena alimentación, y abusar de frituras y rebozados.
+                </p>
+                <p>Algunos de los beneficios que se obtienen al llevar una dieta equilibrada y saludable son los
+                    siguientes:
+                </p>
+                <ul class="row m-1 justify-content-center justify-content-sm-start">
+                    <li class="col-12 col-sm-8">Fortalecer el sistema inmunitario.</li>
+                    <li class="col-12 col-sm-8">Menor riesgo de padecer enfermedades crónicas.</li>
+                    <li class="col-12 col-sm-8">Mejora la circulación sanguínea.</li>
+                    <li class="col-12 col-sm-8">Ralentiza el proceso de envejecimiento.</li>
+                    <li class="col-12 col-sm-8">Evita enfermedades cardiovasculares.</li>
+                    <li class="col-12 col-sm-8">Ayuda a obtener un peso saludable.</li>
+                    <li class="col-12 col-sm-8">Previene la fatiga crónica y el cansancio.</li>
+                    <li class="col-12 col-sm-8">Un estado de ánimo más positivo y mayor energía para el día a día.</li>
+                </ul>
+            </section>
+
+            <section id="como">
+                <h3>¿Cómo trabajamos?</h3>
+                <div class="row">
+                    <div class="col-lg-6 mt-1">
+                        <p>Nuestra clara intención es ofrecer a nuestros clientes <strong>comida natural, sana y
+                                rica.</strong> Para lograrlo y
+                            sabiendo que la calidad debe estar presente desde el inicio de la cadena de valor, hemos
+                            sido
+                            desde
+                            siempre muy exigentes a la hora de seleccionar a nuestros proveedores, que nos brindan
+                            alimentos
+                            frescos y orgánicos de primera calidad, sin conservantes ni agregados químicos.
+                        </p>
+                        <p>Los ingredientes y alimentos frescos son de estación, y los recibimos cada mañana para recién
+                            en
+                            ese
+                            momento comenzar a cocinar. Todos nuestros platos están hechos en el día. Y toda la comida
+                            que
+                            sobra
+                            al final del día es donada a un comedor solidario.
+                        </p>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <p>Utilizando <strong>cereales integrales y vegetales, carnes y pescados</strong> servidos con
+                            ingredientes naturales,
+                            nuestros platos incorporan principios de la alimentación vegetariana y macrobiótica pero sin
+                            encasillarse en estos estilos, sino creando un concepto original donde la alimentación sana
+                            y el
+                            deleite al paladar trabajan en conjunto.</p>
+                        <p>Puede disfrutar tanto de platos vegetarianos como aquellos que incluyen carne, con la certeza
+                            de
+                            saber que priorizamos métodos sanos de elaboración y cocción.
+                        </p>
+                    </div>
+                </div>
+
+                <figure>
+                    <picture>
+                        <source
+                            media="(max-width: 576px) and (-webkit-min-device-pixel-ratio: 1.5),
+                        (max-width: 576px) and (min--moz-device-pixel-ratio: 1.5), (max-width: 576px) and (-o-min-device-pixel-ratio: 1.5), (max-width: 576px) and (min-device-pixel-ratio: 1.5)"
+                            srcset="imagenes/como/imagen_cel2x.jpg">
+
+                        <source media="(max-width: 576px)" srcset="imagenes/como/imagen_cel.jpg">
+
+                        <source media="(max-width: 899px)" srcset="imagenes/como/imagen_tab.jpg">
+                        <img src="imagenes/como/imagenpc.jpg" alt="proveedores organicos">
+                    </picture>
+                </figure>
+            </section>
+        </article>
+    </main>
+
+    <section id="sugerencias" class="container-xxl fondo2">
+        <span id="dos"></span>
+        <h2>Sugerencias del Chef</h2>
+        <ul id="pastillas" class="row w-100 m-auto align-items-md-center justify-content-center">
+            <li class="col-10 col-md-5 col-6 col-sm-8">
+                <h3>Ensalada César</h3>
+                <figure class="card">
+                    <picture>
+                        <source
+                            media="(max-width: 576px) and (-webkit-min-device-pixel-ratio: 1.5),
+                           (max-width: 576px) and (min--moz-device-pixel-ratio: 1.5), (max-width: 576px) and (-o-min-device-pixel-ratio: 1.5), (max-width: 576px) and (min-device-pixel-ratio: 1.5)"
+                            srcset="imagenes/pastillas/pastilla1_cel2x.jpg">
+
+                        <source media="(max-width: 576px)" srcset="imagenes/pastillas/pastilla1_cel.jpg">
+
+                        <source media="(max-width: 899px)" srcset="imagenes/pastillas/pastilla1_tab.jpg">
+                        <img src="imagenes/pastillas/pastilla1.jpg" class="card-img-top" alt="ensalada cesar">
+                    </picture>
+                    <figcaption class="card-text px-3">Ensalada César con pollo y aderezo de salsa caesar especial.
+                    </figcaption>
+                </figure>
+            </li>
+            <li class="col-10 col-md-5 col-6 col-sm-8">
+                <h3>Salmón Rosado</h3>
+                <figure class="card">
+                    <picture>
+                        <source
+                            media="(max-width: 576px) and (-webkit-min-device-pixel-ratio: 1.5),
+                (max-width: 576px) and (min--moz-device-pixel-ratio: 1.5), (max-width: 576px) and (-o-min-device-pixel-ratio: 1.5), (max-width: 576px) and (min-device-pixel-ratio: 1.5)"
+                            srcset="imagenes/pastillas/pastilla2_cel2x.jpg">
+
+                        <source media="(max-width: 576px)" srcset="imagenes/pastillas/pastilla2_cel.jpg">
+
+                        <source media="(max-width: 899px)" srcset="imagenes/pastillas/pastilla2_tab.jpg">
+                        <img src="imagenes/pastillas/pastilla2.jpg" class="card-img-top"
+                            alt="plato de un salmon rosado con verduras">
+                    </picture>
+                    <figcaption class="card-text px-3">Salmón rosado en salsa de soja con verduras salteadas.
+                    </figcaption>
+                </figure>
+            </li>
+            <li class="col-10 col-md-5 col-6 col-sm-8">
+                <h3>Pernil al horno</h3>
+                <figure class="card">
+                    <picture>
+                        <source
+                            media="(max-width: 576px) and (-webkit-min-device-pixel-ratio: 1.5),
+                (max-width: 576px) and (min--moz-device-pixel-ratio: 1.5), (max-width: 576px) and (-o-min-device-pixel-ratio: 1.5), (max-width: 576px) and (min-device-pixel-ratio: 1.5)"
+                            srcset="imagenes/pastillas/pastilla3_cel2x.jpg">
+
+                        <source media="(max-width: 576px)" srcset="imagenes/pastillas/pastilla3_cel.jpg">
+
+                        <source media="(max-width: 899px)" srcset="imagenes/pastillas/pastilla3_tab.jpg">
+                        <img src="imagenes/pastillas/pastilla3.jpg" class="card-img-top"
+                            alt="fila de tacos de verduras">
+                    </picture>
+                    <figcaption class="card-text px-3">Pernil de cerdo al horno con ensalada de vegetales orgánicos.
+                    </figcaption>
+                </figure>
+            </li>
+            <li class="col-10 col-md-5 col-6 col-sm-8">
+                <h3>Pollo Lozano</h3>
+                <figure class="card">
+                    <picture>
+                        <source
+                            media="(max-width: 576px) and (-webkit-min-device-pixel-ratio: 1.5),
+                (max-width: 576px) and (min--moz-device-pixel-ratio: 1.5), (max-width: 576px) and (-o-min-device-pixel-ratio: 1.5), (max-width: 576px) and (min-device-pixel-ratio: 1.5)"
+                            srcset="imagenes/pastillas/pastilla4_cel2x.jpg">
+
+                        <source media="(max-width: 576px)" srcset="imagenes/pastillas/pastilla4_cel.jpg">
+
+                        <source media="(max-width: 899px)" srcset="imagenes/pastillas/pastilla4_tab.jpg">
+                        <img src="imagenes/pastillas/pastilla4.jpg" class="card-img-top"
+                            alt="plato de pollo a la mandarina">
+                    </picture>
+                    <figcaption class="card-text px-3">Pollo hervido con una salsa de mandarina y finas hierbas.
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
+    </section>
+
+    <section class="container-xxl fondo1">
+        <span id="tres"></span>
+        <h2 id="platos">Nuestros platos</h2>
+        <div id="galeria" class="row w-75 m-auto justify-content-center">
+
+            <div class="my-1 my-sm-3 my-md-2 col-sm-5 col-md-4 col-xl-2 m-md-auto">
+                <a data-fancybox="galeria" data-caption="Tacos de garbanzos y verduras salteadas"
+                    data-srcset="imagenes/galeria/uno_cel.jpg 576w, imagenes/galeria/uno_tab.jpg 899w, imagenes/galeria/uno_pc.jpg 1280w"
+                    href="imagenes/galeria/uno_pc.jpg">
+                    <img src="imagenes/galeria/miniaturas/uno.jpg" alt="tacos">
+                </a>
+            </div>
+
+            <div class="my-1 my-sm-3 my-md-2 col-sm-5 col-md-4 col-xl-2 m-md-auto">
+                <a data-fancybox="galeria" data-caption="French toasts con arandanos, banana y miel"
+                    data-srcset="imagenes/galeria/dos_cel.jpg 576w, imagenes/galeria/dos_tab.jpg 899w, imagenes/galeria/dos_pc.jpg 1280w"
+                    href="imagenes/galeria/dos_cel.jpg">
+                    <img src="imagenes/galeria/miniaturas/dos.jpg" alt="tostadas francesas">
+                </a>
+            </div>
+
+            <div class="my-1 my-sm-3 my-md-2 col-sm-5 col-md-4 col-xl-2 m-md-auto">
+                <a data-fancybox="galeria" data-caption="Pasta capresse"
+                    data-srcset="imagenes/galeria/tres_cel.jpg 576w, imagenes/galeria/tres_tab.jpg 899w, imagenes/galeria/tres_pc.jpg 1280w"
+                    href="imagenes/galeria/tres_pc.jpg">
+                    <img src="imagenes/galeria/miniaturas/tres.jpg" alt="pasta">
+                </a>
+            </div>
+
+            <div class="my-1 my-sm-3 my-md-2 col-sm-5 col-md-4 col-xl-2 m-md-auto">
+                <a data-fancybox="galeria" data-caption="Avocado toast"
+                    data-srcset="imagenes/galeria/cuatro_cel.jpg 576w, imagenes/galeria/cuatro_tab.jpg 899w, imagenes/galeria/cuatro_pc.jpg 1280w"
+                    href="imagenes/galeria/cuatro_pc.jpg">
+                    <img src="imagenes/galeria/miniaturas/cuatro.jpg" alt="avocado toast">
+                </a>
+            </div>
+
+            <div class="my-1 my-sm-3 my-md-2 col-sm-5 col-md-4 col-xl-2 m-md-auto">
+                <a data-fancybox="galeria" data-caption="Bowl de hojas verdes con tofu"
+                    data-srcset="imagenes/galeria/cinco_cel.jpg 576w, imagenes/galeria/cinco_tab.jpg 899w, imagenes/galeria/cinco_pc.jpg 1280w"
+                    href="imagenes/galeria/cinco_pc.jpg">
+                    <img src="imagenes/galeria/miniaturas/cinco.jpg" alt="hojas verdes y tofu">
+                </a>
+            </div>
+
+            <div class="my-sm-1 my-sm-3 my-md-2 col-sm-5 col-md-4 col-xl-2 m-md-auto">
+                <a data-fancybox="galeria" data-caption="Ensalada tibia con quinoa"
+                    data-srcset="imagenes/galeria/seis_cel.jpg 576w, imagenes/galeria/seis_tab.jpg 899w, imagenes/galeria/seis_pc.jpg 1280w"
+                    href="imagenes/galeria/seis_pc.jpg">
+                    <img src="imagenes/galeria/miniaturas/seis.jpg" alt="ensalada">
+                </a>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section id="video" class="container-xxl fondo2">
+        <span id="cuatro"></span>
+        <h2>Recorrido Virtual</h2>
+        <p>Un breve recorrido realizado en 3D para que conozcas la ambientación y las modernas instalaciones que posee
+            nuestro establecimiento.</p>
+        <video src="imagenes/recorridovirtual.mp4" preload="metadata" controls poster="imagenes/caratula.jpg"></video>
+    </section>
+
+    <aside id="reservas" class="container-xxl fondo1">
+        <span id="cinco"></span>
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <h2>Reservas</h2>
+                <p>Si te gustó lo que viste y querés reservar una mesa, podés completar este breve formulario y nosotros
+                    nos
+                    comunicaremos con vos para coordinar tu reserva.</p>
+                <form action="formulario/enviar_formulario.php" method="post" enctype="multipart/form-data">
+                    <div class="mb-3 control">
+                        <label for="apellido" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="apellido" name="apellido">
+                    </div>
+                    <div class="mb-3 control">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre">
+                    </div>
+                    <div class="mb-3 control">
+                        <label for="mail" class="form-label">Correo</label>
+                        <input type="email" class="form-control" id="mail" name="mail">
+                    </div>
+                    <div class="mb-3 control">
+                        <label for="fecha" class="form-label">Fecha</label>
+                        <input type="date" class="form-control" id="fecha" name="fecha" min="2021-12-10"
+                            max="2021-12-30">
+                    </div>
+                    <div class="mb-3 control">
+                        <label for="hora" class="form-label">Horario</label>
+                        <select id="hora" class="form-select" name="hora">
+                            <option value="12">12:00 hs</option>
+                            <option value="13">13:00 hs</option>
+                            <option value="14">14:00 hs</option>
+                            <option value="15">15:00 hs</option>
+                            <option value="16">16:00 hs</option>
+                            <option value="17">17:00 hs</option>
+                            <option value="18">18:00 hs</option>
+                            <option value="19">19:00 hs</option>
+                            <option value="20">20:00 hs</option>
+                            <option value="21">21:00 hs</option>
+                            <option value="22">22:00 hs</option>
+                        </select>
+                    </div>
+                    <div class="mb-3 control">
+                        <label for="comentarios" class="form-label">Comentarios extras</label>
+                        <textarea name="comentario" class="form-control" id="comentarios" cols="22" rows="3"
+                            maxlength="80"></textarea>
+                    </div>
+                    <div>
+                        <input type="reset" value="Resetear">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </aside>
+
+    <footer class="container-xxl fondo2">
+        <ul class="row justify-content-center w-75 m-auto">
+            <li>Alumnos: Ariel Fernandez Gitlin y Kenzo Salvatore</li>
+            <li>Carrera: Diseño Multimedial</li>
+            <li>Comisión: B</li>
+            <li>Turno: Tarde</li>
+            <li>Cuatrimestre: agosto-diciembre (segundo cuatrimestre)</li>
+            <li>Año: 2021</li>
+            <li>Materia: Maquetado y desarrollo web</li>
+            <li>Instancia de evaluación: Parcial 2</li>
+            <li>Docente: Omar Toyos</li>
+        </ul>
+        <ul>
+            <li><a href="https://www.instagram.com" id="instagram">Instagram</a></li>
+            <li><a href="https://es-la.facebook.com" id="facebook">Facebook</a></li>
+            <li><a href="https://twitter.com" id="twitter">Twitter</a></li>
+        </ul>
+    </footer>
+
+    <aside id="publicidad" class="container-xxl">
+        <div class="row">
+            <div class="alert fondo6 alert-dismissible fade show fixed-bottom m-0 bg-success" role="alert">
+                <h2 class="alert-heading">¡Encargá comida rica y saludable para estas fiestas!</h2>
+                <p>Hacé una cena diferente en estas fiestas, podés encargar nuestro menú especial y sorprender a tus invitados. Escribinos por <a href="https://www.instagram.com">Instagram</a> para más información</p>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Botón cerrar"></button>
+            </div>
+        </div>
+    </aside>
+
+    <script src="css/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="css/bootstrap/js/animaScroll.js"></script>
+    <script src="css/js/picturefill.js"></script>
+    <script src="css/js/jquery-3.6.0.min.js"></script>
+    <script src="css/js/jquery.fancybox.min.js"></script>
+</body>
+
+</html>
